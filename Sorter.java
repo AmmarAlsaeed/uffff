@@ -6,10 +6,10 @@ public class Sorter {
     
    
     
-    for (int  i = 0 ; i < list.size() - 1 ; i++) {
+    for (int  i = 0 ; i < list.size() - 1 ; i++) {                       
     	for(int j = i + 1 ; j < list.size() ; j++) {
-    		if ( list.get(i).compareTo(list.get(j)) == +1) {
-    		list.swap(i, j);
+    		if ( list.get(i).compareTo(list.get(j)) == +1) {       // wenn das Element in der pos i kleiner als das Element in der pos j
+    		list.swap(i, j);                                       //  tausche i mit j 
     		}
     	}
     }
